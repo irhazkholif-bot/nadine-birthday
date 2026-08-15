@@ -22,9 +22,12 @@
 
             <!-- Music Player -->
             <div class="music-player">
-                <p class="song-title">🎵 "Serta Mulia" - Sal Priadi</p>
-                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" 
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1029486852&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+                <p class="song-title">🎵 "Serta Mulia" - Sal Priadi (Playing...)</p>
+                <button id="music-btn" class="music-btn">
+                    <span>⏸️ Pause Lagu</span>
+                </button>
+                <iframe id="soundcloud-player" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" 
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1029486852&color=%23ff5500&auto_play=true&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
                 </iframe>
                 <div style="font-size: 12px; color: #cccccc; line-break: anywhere; word-wrap: break-word; overflow: hidden;">
                     <a href="https://soundcloud.com/salpriadi-music/serta-mulia" title="Serta Mulia by Sal Priadi" target="_blank" style="color: #cccccc; text-decoration: none;">Serta Mulia by Sal Priadi</a>
