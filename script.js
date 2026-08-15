@@ -67,7 +67,7 @@ function createConfetti() {
     }
 }
 
-// Add sound effect on scroll (optional)
+// Add confetti effect on scroll (optional)
 let lastScrollTime = 0;
 window.addEventListener('scroll', function() {
     const now = Date.now();
